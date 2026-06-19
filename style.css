@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    overflow:hidden;
+    background: radial-gradient(circle, #2b0000, #120000, #000000);
+    height:100vh;
+}
+
+canvas{
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+.mensaje{
+    position:absolute;
+    width:100%;
+    bottom:50px;
+    text-align:center;
+    color:#ffb6c1;
+    font-size:32px;
+    font-family:Arial, sans-serif;
+    font-weight:bold;
+    text-shadow:
+        0 0 10px #ff1493,
+        0 0 20px #ff1493,
+        0 0 30px #ff1493;
+}
